@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html & Css</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="#top">Наверх</a></li>
+        <li><a href="#info-hobbi"></a>Хобби</li>
+        <li><a href="#info-rabot">Опыт</a></li>
+        <li><a href="#info-prob">Пройденные курсы</a></li>
+        <li><a href="#forma">Связь со мной</a></li>
+      </ul>
+    </div>
+
+    <div class="info">
+      <img class="avat" src="11.jpg" alt="Avatarca" />
+      <div class="box">
+        <div class="info-text">
+          <h1>Степан</h1>
+          <p>Хочу научится программировать.</p>
+          <p>Нужна практика.</p>
+        </div>
+        <div class="info-seti">
+          <p>Список социальных сетей:</p>
+          <a href="https://vk.com/al_feed.php" target="_blank">VK</a>
+          &#124
+          <a href="">Инсуньграм</a>
+          &#124
+          <a href="">Telegerm</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="info-hobbi" class="info-hobbi card">
+      <h4>Мои хобби:</h4>
+      <ol>
+        <li>Путешествия</li>
+        <li>Горные лыжи</li>
+        <li>ММА</li>
+      </ol>
+    </div>
+
+    <div id="info-rabot" class="info-rabot card">
+      <h4>Опыт работы:</h4>
+      <table>
+        <tr>
+          <th>Место работы</th>
+          <th>Должность</th>
+          <th>Год работы</th>
+        </tr>
+        <tr>
+          <td>Прог</td>
+          <td>Прог</td>
+          <td>2000-2000</td>
+        </tr>
+        <tr>
+          <td>Прог</td>
+          <td>Прог</td>
+          <td>2000-2000</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="info-prob" class="info-prob card">
+      <h4>Проейденные курсы:</h4>
+      <ul class="list">
+        <li>Курс по Html</li>
+        <li>Курс по Css</li>
+      </ul>
+
+    </div>
+    
+    <form id="forma" action="/" class="forma card" action="">
+      <header id="header card">
+        <h3>Связатся со мной</h3>
+      </header>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Введите имя:</label>
+          <input type="text" id="name" placeholder="Введите имя" />
+        </div>
+        <div class="form-group">
+          <label for="email">Введите email:</label>
+          <input type="email" id="email" placeholder="Введите email" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea
+          id="message"
+          placeholder="Ваше сообщение..."
+          cols="20"
+          rows="5"
+        ></textarea>
+      </div>
+      <button class="btn">Отправить!</button>
+    </form>
+  </body>
+</html>
